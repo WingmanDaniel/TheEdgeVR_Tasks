@@ -15,7 +15,7 @@ public class SphereBehavior : MonoBehaviour
         curPos = this.transform.position.y;
         if (canCall)
         {
-            Debug.Log(curPos);
+            //Debug.Log(curPos);
             if(curPos <= 1)
             {
                 callSpawnRequired();
