@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TaskOne.unity
+    guid: 2e03d387fd729b94ab8e7b96a9ddca6b
   m_configObjects: {}
