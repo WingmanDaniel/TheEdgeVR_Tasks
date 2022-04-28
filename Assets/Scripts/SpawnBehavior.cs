@@ -5,6 +5,12 @@ using UnityEngine;
 public class SpawnBehavior : MonoBehaviour
 {
     public GameObject sphere;
+
+    private void OnEnable()
+    {
+        SphereBehavior.SpawnR += spawnSphere;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
