@@ -22,6 +22,10 @@ public class SphereBehavior : MonoBehaviour
                 canCall = false;
             }
         }
+        if(curPos < -1)    // while the red ball below the bottom
+        {
+            destroyItself();
+        }
         prevPos = curPos;
     }
 
@@ -31,6 +35,11 @@ public class SphereBehavior : MonoBehaviour
         {
             SpawnR();
         }
+    }
+
+    private void destroyItself()
+    {
+        Destroy(this.gameObject);
     }
 
 }
